@@ -330,6 +330,12 @@ img {
 .skills__js {
   width: 65%;
 }
+.skills__java {
+  width: 98%;
+}
+.skills__python {
+  width: 98%;
+}
 
 .skills__ux {
   width: 85%;
