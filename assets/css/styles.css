@@ -80,6 +80,14 @@ img {
   margin-bottom: var(--mb-4);
   text-align: center;
 }
+.section-title2 {
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: hsl(var(--hue-color), 56%, 12%);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
 
 .section-title::after {
   position: absolute;
@@ -91,6 +99,16 @@ img {
   margin: auto;
   top: 2rem;
   background-color: var(--first-color);
+}
+.section-title2::after {
+  position: absolute;
+  content: '';
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
 }
 
 .section {
