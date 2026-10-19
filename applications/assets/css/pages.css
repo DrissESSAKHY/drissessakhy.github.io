@@ -1,0 +1,41 @@
+
+:root{--blue:#4070F4;--navy:#0E2431;--red:#E94B5B;--bg:#F5F8FF;--white:#fff;--muted:#64748b;--line:#e5eaf4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--navy);line-height:1.9}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.container{width:min(1060px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;flex-wrap:wrap}.brand{font-weight:900;color:var(--navy);font-size:1.08rem}.brand span{color:var(--blue)}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:.94rem}nav a{color:var(--navy)}
+.hero{padding:48px 0 28px}.eyebrow{display:inline-block;background:#e8efff;color:var(--blue);padding:4px 13px;border-radius:999px;font-size:.86rem;font-weight:bold}
+h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.35;margin:16px 0;color:var(--navy)}h2{font-size:1.35rem;margin-top:28px}p{margin:10px 0}.lead{color:#42546a;font-size:1.08rem;max-width:760px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:clamp(20px,4vw,34px);box-shadow:0 12px 34px rgba(14,36,49,.05);margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.feature{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}.icon{width:42px;height:42px;border-radius:13px;background:#e8efff;color:var(--blue);display:grid;place-items:center;font-weight:bold;font-size:1.1rem}
+.button{display:inline-block;background:var(--blue);color:#fff;padding:10px 18px;border-radius:12px;font-weight:bold;margin:8px 0}.button:hover{color:#fff;background:#2858d8;text-decoration:none}.button.secondary{background:#fff;color:var(--navy);border:1px solid var(--line)}
+ul{padding-right:24px}li{margin:5px 0}.note{border-right:4px solid var(--red);background:#fff4f5;padding:13px 16px;border-radius:10px;color:#5c2630}
+footer{margin-top:42px;padding:24px 0;background:#fff;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer .foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.small{font-size:.9rem;color:var(--muted)}.pill{display:inline-block;border:1px solid var(--line);background:#fff;padding:4px 10px;border-radius:999px;font-size:.85rem;margin:3px}
+@media(max-width:600px){.nav{align-items:flex-start}.hero{padding-top:30px}nav{gap:10px}}
+
+
+/* Main Alqiyada Academy landing page */
+.hero-center{text-align:center;background:linear-gradient(135deg,#0d47a1,#1565c0);color:#fff;border-radius:0 0 28px 28px;padding:38px 22px 42px;margin:0 calc((min(1060px,92vw) - 100vw)/2);padding-left:max(22px,calc((100vw - min(1060px,92vw))/2));padding-right:max(22px,calc((100vw - min(1060px,92vw))/2))}
+.hero-center .eyebrow{background:rgba(255,255,255,.15);color:#fff}
+.hero-center h1{color:#fff;margin-top:12px}
+.hero-lead{color:#eaf2ff;margin:0 auto 22px}
+.app-logo{display:block;width:150px;height:150px;max-width:55%;object-fit:contain;border-radius:28px;margin:0 auto 20px;box-shadow:0 12px 30px rgba(0,0,0,.22);background:#fff}
+.button-light{background:#fff;color:#0d47a1}.button-light:hover{background:#edf4ff;color:#0d47a1}
+.section{margin:28px 0}.section-heading{text-align:center;color:#1565c0;margin-top:0;margin-bottom:22px}
+.feature{text-align:center}.feature-emoji{font-size:2.35rem;line-height:1.4}.feature h3{margin:8px 0;color:var(--navy)}
+.cta-panel{background:linear-gradient(135deg,#e3f2fd,#fff);border:1px solid #bbdefb;border-radius:22px;margin:30px 0;padding:30px 20px;text-align:center}
+.cta-panel h2{color:#0d47a1;margin-top:0}
+.faq-item{padding:8px 0;border-bottom:1px solid var(--line)}.faq-item:last-child{border-bottom:0}
+.faq-item h3{margin-bottom:4px}.faq-item p{margin-top:4px}
+.final-cta{background:#0d47a1;border-radius:25px;color:#fff;margin:30px 0;padding:35px 20px;text-align:center}
+.final-cta h2{color:#fff;margin-top:0}.final-cta p{color:#eaf2ff}
+.footer-inner{text-align:center}.footer-inner p{margin:3px 0}.footer-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.footer-links a{color:#1565c0}
+@media(max-width:600px){.hero-center{padding-top:30px;padding-bottom:32px}.app-logo{width:125px;height:125px}}
+
+.developer-panel{text-align:center}.developer-name{color:var(--navy);margin:8px 0}.meta-label{font-weight:bold}
+
+.terms-content h2{color:#1565c0;margin-top:26px;padding-bottom:5px;border-bottom:1px solid var(--line)}.terms-content h2:first-child{margin-top:0}.terms-content p{margin:10px 0 18px}
+
+.privacy-content h2{color:#1565c0;margin-top:28px;padding-bottom:5px;border-bottom:1px solid var(--line)}.privacy-content h2:first-child{margin-top:0}.privacy-content p{margin:10px 0 16px}.privacy-content ul{padding-right:24px}
